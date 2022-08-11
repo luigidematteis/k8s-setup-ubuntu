@@ -145,7 +145,7 @@ case $? in
     sudo su -c 'source /root/.bashrc'
     cd ~/go/src/k8s.io/kubernetes
     echo "Kubernetes is ready to be compiled."
-    echo "Please, be aware that it could be necessary time to built it."
+    echo "Please, be aware that it could be necessary time to build it."
     make all
     echo
     echo "*** NOTE ***"
