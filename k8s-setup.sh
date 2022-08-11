@@ -117,7 +117,7 @@ case $? in
     echo "sudo su"
     echo "make all"
     echo
-    echo "Please, be aware that it could be necessary time to built it."
+    echo "Please, be aware that it could be necessary time to build it."
     echo
     echo "Once Kubernetes is built, you can run up the cluster: "
     echo
@@ -144,6 +144,9 @@ case $? in
     source ~/.bashrc
     sudo su -c 'source /root/.bashrc'
     cd ~/go/src/k8s.io/kubernetes
+    echo "Kubernetes is ready to be compiled."
+    echo "Please, be aware that it could be necessary time to built it."
+    make all
     echo
     echo "*** NOTE ***"
     echo "SWAP will be disabled to run Kubernetes: "
