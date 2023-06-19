@@ -1,5 +1,6 @@
 ⚠️ ⚠️ ⚠️
-This repository can be outdated!
+This repository may be outdated!
+Some of the steps listed here may need to be revised to bring the tools up to current versions.
 ⚠️ ⚠️ ⚠️
 
 ### Kubernetes setup on Ubuntu ^20.04
