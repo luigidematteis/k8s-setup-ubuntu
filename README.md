@@ -1,3 +1,7 @@
+⚠️ ⚠️ ⚠️
+This repository can be outdated!
+⚠️ ⚠️ ⚠️
+
 ### Kubernetes setup on Ubuntu ^20.04
 This script will install all the necessary tools to run up a Kubernetes cluster from the offical k8s repository.
 
